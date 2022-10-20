@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DllMain">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="MuscleEngine">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{b7db47da-eeb6-402c-8336-4f7dcefa6449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Collider">
+      <UniqueIdentifier>{fb9a7daa-2a57-45b3-ad73-715408a3d152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\IComponents">
+      <UniqueIdentifier>{e450e9c8-529a-48e2-afdb-61c562adae37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Transform">
+      <UniqueIdentifier>{52a993e5-31fd-4f1c-badd-450c8de82951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{4dbcdfab-ce36-4e38-92d2-7a60ebbb45e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{cb5271ad-fd74-421d-bb2a-2b7ce3b57526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\ObjManager">
+      <UniqueIdentifier>{5507fa35-39ff-4a09-8c04-26da3d16bc76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{9b6d6787-a7d7-4de6-982b-2a20e8025f1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\CTime">
+      <UniqueIdentifier>{2615964b-ef31-4039-9cc4-4fecb0802489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\KeyBoard">
+      <UniqueIdentifier>{663d7dd5-51c4-47d8-9b0e-775b1ed405e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Camera">
+      <UniqueIdentifier>{a8ac355b-8c1e-436c-baae-12dc008cadbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\MeshRender">
+      <UniqueIdentifier>{1bdc3d97-01d9-4253-9d56-b7cd13518867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Animater">
+      <UniqueIdentifier>{ce77c390-8177-4705-ae88-462ff7ce6d0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Animater\AniClip">
+      <UniqueIdentifier>{83aa2aa4-de7d-4fde-bd5f-170632003868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Light">
+      <UniqueIdentifier>{579e5d16-a6ec-4d2b-a280-12cbec1160cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\GizmoRender">
+      <UniqueIdentifier>{96d3d48f-52c0-402e-822d-bc0292754427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Camera\Camera">
+      <UniqueIdentifier>{44db3306-2c54-4558-9fd9-34691d740e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Camera\Frustum">
+      <UniqueIdentifier>{039e4451-7336-43f5-8fa9-30bbc666b27c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\BoxVolume">
+      <UniqueIdentifier>{440dfd16-b1b4-41c0-8971-b85c6888f0cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Collider\AABBCollider">
+      <UniqueIdentifier>{0f5c1cb1-d4a9-4462-9d4e-1b2f97d2a67f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Collider\SphererCollider">
+      <UniqueIdentifier>{71bc32ef-ce0b-45e5-bdeb-e552b81498d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Rigidbody">
+      <UniqueIdentifier>{0f514557-a444-4ea7-86af-c283577916ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEnginePCH.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="MuscleEngine.h">
+      <Filter>MuscleEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Managers\ObjManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Components\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="IComponents.h">
+      <Filter>Components\IComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Components\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CTime.h">
+      <Filter>Common\CTime</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyBoard.h">
+      <Filter>Common\KeyBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderer.h">
+      <Filter>Components\MeshRender</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Animater.h">
+      <Filter>Components\Animater</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationClip.h">
+      <Filter>Components\Animater\AniClip</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Components\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="GizmoRenderer.h">
+      <Filter>Components\GizmoRender</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Components\Camera\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustum.h">
+      <Filter>Components\Camera\Frustum</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxVolume.h">
+      <Filter>Components\BoxVolume</Filter>
+    </ClInclude>
+    <ClInclude Include="AABBCollider.h">
+      <Filter>Components\Collider\AABBCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereCollider.h">
+      <Filter>Components\Collider\SphererCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="Rigidbody.h">
+      <Filter>Components\Rigidbody</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>DllMain</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEnginePCH.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="MuscleEngine.cpp">
+      <Filter>MuscleEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Managers\ObjManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Components\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="IComponents.cpp">
+      <Filter>Components\IComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Components\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CTime.cpp">
+      <Filter>Common\CTime</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyBoard.cpp">
+      <Filter>Common\KeyBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderer.cpp">
+      <Filter>Components\MeshRender</Filter>
+    </ClCompile>
+    <ClCompile Include="Animater.cpp">
+      <Filter>Components\Animater</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationClip.cpp">
+      <Filter>Components\Animater\AniClip</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Components\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="GizmoRenderer.cpp">
+      <Filter>Components\GizmoRender</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Components\Camera\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Frustum.cpp">
+      <Filter>Components\Camera\Frustum</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxVolume.cpp">
+      <Filter>Components\BoxVolume</Filter>
+    </ClCompile>
+    <ClCompile Include="AABBCollider.cpp">
+      <Filter>Components\Collider\AABBCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereCollider.cpp">
+      <Filter>Components\Collider\SphererCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="Rigidbody.cpp">
+      <Filter>Components\Rigidbody</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
